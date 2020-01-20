@@ -1,7 +1,6 @@
 import tarfile
 import os
 import glob
-import public as public
 
 originalSize = 0
 tarSize = 0
@@ -24,7 +23,9 @@ def collectFiles():
         file_info = os.stat(file)
         originalSize = originalSize + file_info.st_size
     # print(convertSize(originalSize))
+    print("Collected Directory items: "+ str(glob.glob("*")))
     return files
+
 
 
 
@@ -109,7 +110,7 @@ def results():
 
 '''Testing Function'''
 def test():
-    print(glob.glob("*"))
+    print('')
 
 
 def main():
