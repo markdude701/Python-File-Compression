@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="44098e57-6554-4c53-8d8c-91890a22447a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive.tar" beforeDir="false" afterPath="$PROJECT_DIR$/archive.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/archive.tar.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/conversion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>

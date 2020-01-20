@@ -14,6 +14,7 @@ def convertSize(number):
         number /= 1024
 #Reference: https://stackoverflow.com/a/39988702/11571748
 
+
 def collectFiles():
     global originalSize
     files = []
