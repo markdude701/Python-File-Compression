@@ -1,6 +1,11 @@
 # Python File Compression
 ## Create Tar & Tar.gz files
 
+### Imports / Requirements:
+- tarfile
+- OS
+- glob
+
 ### Sample Output
 ```
 Deleted old archive.tar
