@@ -1,21 +1,23 @@
 # Python File Compression
-## Create Tar & Tar.gz files
+## Compress files and directories using Python!
+### Current Compression Formats Outputs:
+- Tar
+- Tar.gz
 
 ### Imports / Requirements:
-- tarfile
+- Tarfile
 - OS
-- glob
+- Glob
 
 ### Sample Output
 ```
-Collected Directory items: ['archive.tar', 'archive.tar.gz', 'bar', 'conversion.py', 'foo', 'quux', 'readme.md', 'venv']
 Deleted old archive.tar
 Deleted old archive.tar.gz
 Collected Directory items: ['bar', 'conversion.py', 'foo', 'quux', 'readme.md', 'venv']
 Created archive.tar
 Created archive.tar.gz
 Compression Complete!
-Original Directory File Size: 28.0 MB
-Tar File Size: 19.8 MB - Compression : 70.92981113181558 % 
-Tar.gz File Size: 8.1 MB - Compression : 29.04161947711844 % 
+Original Directory File Size: 139.8 MB
+Tar File Size: 19.8 MB - Compression : 85.80871848458735 % 
+Tar.gz File Size: 8.1 MB - Compression : 94.18906985665501 % 
 ```
